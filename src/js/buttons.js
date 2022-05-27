@@ -11,11 +11,11 @@ function buttonPress(event) {
   displayBox.textContent += 'hello from button ' + buttonNumber + '! ';  
 }
 
-/* <button class=".button">Say hi 1</button>
-<button class="js-say-hi">Say hi 2</button>
-<button class="js-say-hi">Say hi 3</button>
-<button class="js-say-hi">Say hi 4</button>
-<button class="js-say-hi">Say hi 5</button>
+/* <button class="button">Say hi 1</button>
+<button class="button">Say hi 2</button>
+<button class="button">Say hi 3</button>
+<button class="button">Say hi 4</button>
+<button class="button">Say hi 5</button>
 <div class="js-display-greeting"></div> */
 
 export const buttonPress = () => {
