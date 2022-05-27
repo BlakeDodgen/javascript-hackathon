@@ -45,15 +45,22 @@ nav {
 }
 
 .container {
-    width: 80%;
     display: flex;
     flex-direction: column;
+    margin: 30px 30px;
 }
 
 .feature {
     display: flex;
-    flex-direction: row;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
     background-color: $primary-color;
+    margin: 30px 30px;
+    height: 400px;
+    width: 400px;
+    border-radius: 15%;
+    
 
 }
 
@@ -79,17 +86,41 @@ nav {
 
 .event {
     display: flex;
+<<<<<<< HEAD
     background-color: $primary-color;
+=======
+    justify-content: center;
+    align-items: center;
+>>>>>>> main
     flex-wrap: wrap;
-    width: 30%;
+    margin: 30px 30px;
+    background-color: $primary-color;
     
-
 }
 
-.event__name {
+.event__box{
+    display: flex;
+    flex-direction: column;
+    background-color: red;  
+    margin: 30px 30px;
+    width: 40%;
+    height: 200px;
+    width: 200px;
+    border-radius: 15%;
+ 
+   
+}
 
+
+
+.event__name {
+display: flex;
+justify-content: center;
+align-items: center;
 }
 
 .event__button .button{
+    width: 40%;
     
 }
+
