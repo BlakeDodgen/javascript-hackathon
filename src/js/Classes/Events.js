@@ -1,4 +1,13 @@
 // document.querySelector('.container')
+var buttons = document.querySelectorAll('.button');
+for (let i = 0; i < buttons.length; i++) {
+    buttons[i].addEventListener('click', buttonPress);
+}
+function buttonPress(event) {
+    console.log(buttons[i])
+}
+
+
 
 class Event {
     constructor(name, image, description, button) {
@@ -9,25 +18,13 @@ class Event {
         this.createEvent()
     }
     createEvent() {
-        let container = document.querySelector('.container')
+        let container = document.querySelector('.event')
         console.log(container)
         container.innerHTML += `
-        <div class="eventContainer">
-
-        <div class="feature">
-            <div class="feature__event">${this.name}</div>
-            <div class="feature__img">${this.image}</div>
-            <div class="feature__name">${this.name}</div>
-            <div class="feature__description">${this.description}</div>
-            <button class="button">${this.button}</button>
-
-        </div>
-
-        <div class="event">
-            <div class="event__name">${this.name}</div>
-            <button class="event__button">${this.button}</button>
-        </div>
-    </div>
+                <div class="event__box">
+                <div class="event__name">${this.name}</div>
+                <button class="event__button">${this.button}</button>
+                </div>
         `
     }
 }
@@ -45,3 +42,12 @@ class Event {
 
 export { Event }
 
+
+{/* <div class="feature">
+<div class="feature__event">${this.name}</div>
+<div class="feature__img">${this.image}</div>
+<div class="feature__name">${this.name}</div>
+<div class="feature__description">${this.description}</div>
+<button class="button">${this.button}</button>
+
+</div> */}

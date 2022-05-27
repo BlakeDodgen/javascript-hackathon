@@ -78,10 +78,11 @@ nav {
 
 .event {
     display: flex;
-    display: flex;
-    flex-direction: row;
+    flex-direction:
     background-color: $primary-color;
+    flex-wrap: wrap;
     width: 30%;
+    
 
 }
 
