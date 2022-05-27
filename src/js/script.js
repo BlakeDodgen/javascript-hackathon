@@ -1,3 +1,4 @@
+import { } from "./modal";
 import { Event } from './Classes/Events.js'
 
 const events = [
