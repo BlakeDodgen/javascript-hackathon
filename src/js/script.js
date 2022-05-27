@@ -1,7 +1,6 @@
-<<<<<<< HEAD
-import { } from "./modal";
-=======
+import {} from './modal'
 import { Event } from './Classes/Events.js'
+import{} from './fetchPost'
 
 const events = [
     new Event('AA', '', 'blabla', 'more'),
@@ -10,4 +9,3 @@ const events = [
     new Event('AAccddss', '', 'blabla', 'more'),
     new Event('AAdddssffgh', '', 'blabla', 'more'),
 ]
->>>>>>> main

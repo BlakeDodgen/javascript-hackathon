@@ -1,11 +1,11 @@
 // document.querySelector('.container')
-var buttons = document.querySelectorAll('.button');
-for (let i = 0; i < buttons.length; i++) {
-    buttons[i].addEventListener('click', buttonPress);
-}
-function buttonPress(event) {
-    console.log(buttons[i])
-}
+// var buttons = document.querySelectorAll('.button');
+// for (let i = 0; i < buttons.length; i++) {
+//     buttons[i].addEventListener('click', buttonPress);
+// }
+// function buttonPress(event) {
+//     console.log(buttons[i])
+// }
 
 
 

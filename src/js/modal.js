@@ -1,14 +1,14 @@
-const open = document.querySelector ('.button');
+const open1 = document.querySelector ('.button');
 const modalContainer =  document.querySelector ('.modalContainer');
-const close = document.querySelector ('.modal__close');
+const close1 = document.querySelector ('.modal__close');
 
-open.addEventListener('click', () => {
+open1.addEventListener('click', () => {
     modalContainer.classList.add('show');
-   console.log ('Hi')
+//    console.log ('Hi')
 
 });
 
-close.addEventListener('click', () => {
+close1.addEventListener('click', () => {
     modalContainer.classList.remove('show');
    
 
