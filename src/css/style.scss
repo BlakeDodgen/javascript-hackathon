@@ -24,6 +24,8 @@ nav {
     padding: 2rem 6rem;
 }
 
+
+
 .nav__headline {
 
 }
@@ -33,15 +35,25 @@ nav {
 }
 
 .nav__link_item {
+    text-decoration: none;
+    color: darkslategray;
 
+}
+    
+.nav__link_item:hover {
+    color: lightslategrey;
 }
 
 .container {
-    
+    width: 80%;
+    display: flex;
+    flex-direction: column;
 }
 
 .feature {
     display: flex;
+    flex-direction: row;
+    background-color: $primary-color;
 
 }
 
@@ -67,6 +79,11 @@ nav {
 
 .event {
     display: flex;
+    flex-direction:
+    background-color: $primary-color;
+    flex-wrap: wrap;
+    width: 30%;
+    
 
 }
 
