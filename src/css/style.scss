@@ -23,6 +23,8 @@ nav {
     padding: 2rem 6rem;
 }
 
+
+
 .nav__headline {
 
 }
@@ -32,7 +34,13 @@ nav {
 }
 
 .nav__link_item {
+    text-decoration: none;
+    color: darkslategray;
 
+}
+    
+.nav__link_item:hover {
+    color: lightslategrey;
 }
 
 .container {
