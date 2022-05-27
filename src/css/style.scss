@@ -13,3 +13,66 @@ body {
     margin: 0;
     font-family: $font;
 }
+
+nav {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    background-color: $primary-color;
+    padding: 2rem 6rem;
+}
+
+.nav__headline {
+
+}
+
+.nav__container {
+
+}
+
+.nav__link_item {
+
+}
+
+.container {
+    
+}
+
+.feature {
+    display: flex;
+
+}
+
+.feature__event {
+
+}
+
+.feature__img {
+
+}
+
+.feature__name {
+
+}
+
+.feature__description {
+
+}
+
+.feature__button .button {
+
+}
+
+.event {
+    display: flex;
+
+}
+
+.event__name {
+
+}
+
+.event__button .button{
+    
+}
