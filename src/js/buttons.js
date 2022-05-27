@@ -18,7 +18,5 @@ function buttonPress(event) {
 <button class="button">Say hi 5</button>
 <div class="js-display-greeting"></div> */
 
-export const buttonPress = () => {
-    
-};
+
 
