@@ -45,15 +45,22 @@ nav {
 }
 
 .container {
-    width: 80%;
     display: flex;
     flex-direction: column;
+    margin: 30px 30px;
 }
 
 .feature {
     display: flex;
-    flex-direction: row;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
     background-color: $primary-color;
+    margin: 30px 30px;
+    height: 400px;
+    width: 400px;
+    border-radius: 15%;
+    
 
 }
 
@@ -77,28 +84,39 @@ nav {
 
 }
 
-// .event {
-//     display: flex;
-//     flex-direction:
-//     background-color: $primary-color;
-//     flex-wrap: wrap;
-//     width: 30%;
-// }
+.event {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    margin: 30px 30px;
+    background-color: $primary-color;
+    
+}
 
 .event__box{
     display: flex;
-    background-color: red;
-    width: 400 px;
-    height: 400 px;
+    flex-direction: column;
+    background-color: red;  
+    margin: 30px 30px;
+    width: 40%;
+    height: 200px;
+    width: 200px;
+    border-radius: 15%;
+ 
    
 }
 
 
 
 .event__name {
-
+display: flex;
+justify-content: center;
+align-items: center;
 }
 
 .event__button .button{
+    width: 40%;
     
 }
+
