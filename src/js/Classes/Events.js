@@ -19,13 +19,16 @@ class Event {
     }
     createEvent() {
         let container = document.querySelector('.event')
-        console.log(container)
-        container.innerHTML += `
-                <div class="event__box">
+        // console.log(container)
+        const box = document.createElement('div')
+        box.classList.add('event__box')
+        box.innerHTML += `
                 <div class="event__name">${this.name}</div>
-                <button class="event__button">${this.button}</button>
+                <button class="event__button">${this.button}</button> 
                 </div>
         `
+        // do more stuff, like assign event listeners
+        container.appendChild(box)
     }
 }
 

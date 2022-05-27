@@ -76,15 +76,23 @@ nav {
 
 }
 
-.event {
-    display: flex;
-    flex-direction:
-    background-color: $primary-color;
-    flex-wrap: wrap;
-    width: 30%;
-    
+// .event {
+//     display: flex;
+//     flex-direction:
+//     background-color: $primary-color;
+//     flex-wrap: wrap;
+//     width: 30%;
+// }
 
+.event__box{
+    display: flex;
+    background-color: red;
+    width: 400 px;
+    height: 400 px;
+   
 }
+
+
 
 .event__name {
 
